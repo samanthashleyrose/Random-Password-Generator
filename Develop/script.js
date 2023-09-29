@@ -4,12 +4,11 @@
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate"); // gen button HTML
 
-let lengthMin = 8 ;
-let lengthMax = 128 ;
-let charLower = "abcdefghijklmnopqrstuvwxyz";
-let charUpper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-let charNum = "0123456789";
-let charSpecial = "!@#$%^&*()";
+const length = "Password must be between 8-128 characters.";
+const charLower = "Atleast 1 lowercase letter.";
+const charUpper = "Atleast 1 uppercase letter.";
+const charNum = "Atleast 1 number.";
+const charSpecial = "Atleast 1 special character [ !@#$%^&*() ]";
 
 // Write password to the #password input
 function writePassword() { // value of writePassword listed in body below
@@ -21,13 +20,16 @@ function writePassword() { // value of writePassword listed in body below
 
 //Write code here
 
+
+
 function generatePassword () {
-  var passLength = prompt("Please select desired length of password. Password must be between 8-128 characters.");
-  passLength = parseInt(passLength);
+  window.prompt("Please enter your desired password results. See criteria below:\n\n" + length +"\n" + charLower +"\n" + charUpper +"\n" + charNum +"\n"+ charSpecial);
+  var passLength = "";
   if (passLength < 8 || passLength > 128) {
     prompt("Oops, Try Again! Password must be between 8-128 characters.");
   } else (passLength > 7 || passLength < 129);
 }
+
 
 
 
