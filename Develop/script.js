@@ -6,24 +6,27 @@ var generateBtn = document.querySelector("#generate"); // gen button HTML
 
 let lengthMin = 8 ;
 let lengthMax = 128 ;
-var charLower = "abcdefghijklmnopqrstuvwxyz";
-var charUpper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-var charNum = "0123456789";
-var charSpecial = "!@#$%^&*()";
+let charLower = "abcdefghijklmnopqrstuvwxyz";
+let charUpper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+let charNum = "0123456789";
+let charSpecial = "!@#$%^&*()";
 
 // Write password to the #password input
-function writePassword() {
-  var password = generatePassword();
+function writePassword() { // value of writePassword listed in body below
+  var password = generatePassword(); // generatePassword defined at line 24
   var passwordText = document.querySelector("#password"); // text box HTML
 
-  passwordText.value = password;
+  passwordText.value = password; // creates value of the Text Box in HTML to become var password (which is defined on like 24) in JS
 }
 
 //Write code here
 
-
 function generatePassword () {
-
+  var passLength = prompt("Please select desired length of password. Password must be between 8-128 characters.");
+  passLength = parseInt(passLength);
+  if (passLength < 8 || passLength > 128) {
+    prompt("Oops, Try Again! Password must be between 8-128 characters.");
+  } else (passLength > 7 || passLength < 129);
 }
 
 
