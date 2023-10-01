@@ -70,3 +70,22 @@ function writePassword() {
     passwordText.value = "Please try again :)"; // message is displayed in the textbox to encourage the user to click 'Generate Password' again
   }
 }
+
+// ACTIVATES 'REFRESH' BUTTON //
+
+var refreshBtn = document.querySelector("#refresh"); // HTML refresh button
+refreshBtn.addEventListener("click", refreshPassword);
+
+// GENERATES REFRESHING THE PASSWORD IN THE TEXT BOX //
+
+function writePassword() {
+  var promptResults = promptAnswers(); 
+  var passwordText = document.querySelector("#password"); // HTML textbox
+
+  if(promptResults) {
+    var genPassword = generatePassword();
+    passwordText.value = genPassword; // enters the value of password (line 57) into HTML text box
+  } else { // used when incorrect value is entered into passLength prompt (line 22)
+    passwordText.value = "Please try again :)"; // message is displayed in the textbox to encourage the user to click 'Generate Password' again
+  }
+}
