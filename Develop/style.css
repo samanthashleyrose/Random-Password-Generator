@@ -72,7 +72,7 @@ header {
   clear: both;
 }
 
-.btn {
+.btn1 {
   border: none;
   background-color: hsla(120, 77%, 22%, 0.805);
   border-radius: 25px;
@@ -84,6 +84,22 @@ header {
   line-height: 22px;
   margin: 16px 16px 16px 20px;
   padding: 14px 34px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn2 {
+  border: none;
+  background-color: hsla(120, 36%, 46%, 0.863);
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
+    0px;
+  color: hsl(0, 0%, 100%);
+  display: inline-block;
+  font-size: 15px;
+  line-height: 22px;
+  margin-right: -100px;
+  padding: 8px 15px;
   text-align: center;
   cursor: pointer;
 }
