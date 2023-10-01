@@ -12,17 +12,6 @@ const charUpper = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','
 const charNum = ['0','1','2','3','4','5','6','7','8','9'];
 const charSpecial = ['!','@','#','$','%','^','&','*','(',')'];
 
-// GENERATES THE RANDOMNESS OF THE PASSWORD //
-
-function generatePassword() {
-  var password = "";
-  for (let i = 0; i < passLength; i++) {
-    let random = Math.floor(Math.random() * passChoice.length);
-    password = password + passChoice[random];
-  }
-  return password;
-}
-
 // GENERATES PROMPTS REGARDING PASSWORD CRITERIA //
 
 function promptAnswers() {
@@ -55,6 +44,17 @@ function promptAnswers() {
     console.log(true || false); // will only print out 'true' value to console
   }
   return true; // only 'true' values will be considered for the generated password
+}
+
+// GENERATES THE RANDOMNESS OF THE PASSWORD //
+
+function generatePassword() {
+  var password = "";
+  for (let i = 0; i < passLength; i++) {
+    let random = Math.floor(Math.random() * passChoice.length);
+    password = password + passChoice[random];
+  }
+  return password;
 }
 
 // GENERATES THE PASSWORD INTO THE TEXT BOX //
