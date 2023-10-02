@@ -48,6 +48,7 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 <li><link><a href="https://chat.openai.com/">ChatGPT</a></link></li>
 <li><link><a href="https://www.w3schools.com/js/js_popup.asp">W3Schools JS Popup Boxes</a></link></li>
 <li><link><a href="https://www.w3schools.com/jsref/met_win_prompt.asp">W3Schools Window Prompt()</a></link></li>
+<li><link><a href="https://www.w3schools.com/howto/howto_css_animate_buttons.asp">W3Schools How To - Animate Buttons</a></link></li>
 <li><link><a href="https://www.codecademy.com/resources/docs/javascript/loops">Codecademy JavaScript Concepts</a></link></li>
 <li><link><a href="https://www.reddit.com/r/AskProgramming/comments/katbot/javascript_help_with_password_generator/">Javascript help with Password Generator - Reddit</a></link></li>
 <li><link><a href="https://www.youtube.com/watch?v=x4HUaiazDes">Homework Startup Guide - JavaScript Password Generator - YouTube</a></link></li>
