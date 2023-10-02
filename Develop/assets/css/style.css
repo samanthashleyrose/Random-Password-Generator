@@ -82,7 +82,7 @@ header {
   display: inline-block;
   font-size: 22px;
   line-height: 22px;
-  margin: 16px 16px 16px 20px;
+  margin: 16px 16px 16px 36px;
   padding: 14px 34px;
   text-align: center;
   cursor: pointer;
@@ -103,6 +103,17 @@ header {
   text-align: center;
   cursor: pointer;
 }
+
+.img {
+  display: inline-block;
+  position: absolute;
+  width: 6%;
+  margin-left: 6%;
+  margin-top: 1.5%;
+  width: 2%;
+}
+
+
 
 button[disabled] {
   cursor: default;
