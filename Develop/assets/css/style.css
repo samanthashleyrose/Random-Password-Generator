@@ -1,3 +1,4 @@
+/* MAIN COLORS & FONT SIZES */
 *,
 *::before,
 *::after {
@@ -24,6 +25,7 @@ body {
   margin-bottom: -43%;
 }
 
+/* HEADER */
 header {
   text-align: center;
   padding: 20px;
@@ -31,6 +33,7 @@ header {
   color: hsl(132, 100%, 99%);
 }
 
+/* CARD SECTION */
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
@@ -74,6 +77,7 @@ header {
   margin-bottom: 5%;
 }
 
+/* BUTTONS */
 button:hover {
   background-color: rgb(56, 105, 76);
 }
@@ -130,6 +134,7 @@ button[disabled] {
   float: right;
 }
 
+/* PLACEHOLDER TEXT */
 #password {
   -webkit-appearance: none;
   -moz-appearance: none;
