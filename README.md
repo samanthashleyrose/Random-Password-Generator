@@ -56,6 +56,10 @@ Let's say you've entered in all the needed criteria into the prompt boxes and yo
 
 *insert demonstration video*
 
+
+https://github.com/samanthashleyrose/module03-challenge/assets/142939966/b067049e-0dec-4bf6-ab21-6a4a79ce2062
+
+
 ## License
 
 Please refer to the MIT LICENSE in the repo.
