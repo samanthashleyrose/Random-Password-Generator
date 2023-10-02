@@ -27,13 +27,8 @@ The beauty of this site is it's very easy to use!
 Begin by pressing 'Generate Password' which will open multiple prompt boxes at the top of the page. Follow the instructions and answer the questions based off of your passwords needs. Once you've answered every prompt, a random password will be generated in the text box. Just highlight, copy/paste, and you're good to go! For greater secutiry, it's recommended the password is stored in a safe place such as a locked passwords folder or written down on paper only you have access to. 
 (See [Features](#features) below for a demonstration on how to use the *Refresh* button)
 
+![Fullscren Screenshot of Random Password Generator](./Develop/assets/images/fullscreen-sc.png)
 
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
 
 ## Credits
 
