@@ -52,7 +52,7 @@ Begin by pressing 'Generate Password' which will open multiple prompt boxes at t
 
 ## Features
 
-Let's say you've entered in all the needed criteria into the prompt boxes and you have a generated password sitting in the textbox... but you don't like it. That's where the Refresh Feature comes in handy! Go ahead and press the 'Refresh' button located next to 'Generate Password' to have a freshly mixed batch of random characters!
+Let's say you've entered in all the needed criteria into the prompt boxes and you have a generated password sitting in the textbox... but you don't like how it looks. That's where the Refresh Feature comes in handy! Go ahead and press the 'Refresh' button located next to 'Generate Password' to have a freshly mixed batch of random characters!
 
 https://github.com/samanthashleyrose/module03-challenge/assets/142939966/b067049e-0dec-4bf6-ab21-6a4a79ce2062
 
