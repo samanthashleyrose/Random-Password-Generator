@@ -215,7 +215,7 @@ button[disabled] {
   }
 }
 
-/* XS */
+/* S */
 @media (max-width: 550px) {
   #password {
     font-size: 1rem;
@@ -232,6 +232,27 @@ button[disabled] {
     width: 6%;
     margin-left: 95.5%;
     margin-top: -11.2%;
+  }
+}
+
+/* XS */
+@media (max-width: 430px) {
+  #password {
+    font-size: 1rem;
+  }
+  .btn1 {
+    font-size: 1rem;
+    padding: 10px 19px;
+  }
+  .btn2 {
+    font-size: .6rem;
+    margin-right: -10px;
+    padding: 4px 11px;
+  }
+  #img {
+    width: 6%;
+    margin-left: 101.5%;
+    margin-top: -14.2%;
   }
 }
 
