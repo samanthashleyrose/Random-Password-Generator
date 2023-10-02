@@ -74,6 +74,14 @@ header {
   margin-bottom: 5%;
 }
 
+button:hover {
+  background-color: rgb(56, 105, 76);
+}
+
+button:active {
+  transform: translateY(3px);
+}
+
 .btn1 {
   border: none;
   background-color: hsla(120, 77%, 22%, 0.805);
