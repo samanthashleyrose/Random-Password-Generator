@@ -1,4 +1,4 @@
-# Module 3 Challenge - Random Password Generator
+# Random Password Generator
 ## Description
 
 Cybersecurity is important but having to create a strong password on your own can be difficult and take up time from your day. By using this simple <a href="https://samanthashleyrose.github.io/module03-challenge/">Random Password Generator</a> you'll have a brand new password within seconds that will not only meet your security needs but also save you a headache.
