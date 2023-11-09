@@ -1,7 +1,7 @@
 # Random Password Generator
 ## Description
 
-Cybersecurity is important but having to create a strong password on your own can be difficult and take up time from your day. By using this simple <a href="https://samanthashleyrose.github.io/module03-challenge/">Random Password Generator</a> you'll have a brand new password within seconds that will not only meet your security needs but also save you a headache.
+Cybersecurity is important but having to create a strong password on your own can be difficult and take up time from your day. By using this simple <a href="https://samanthashleyrose.github.io/Random-Password-Generator/">Random Password Generator</a> you'll have a brand new password within seconds that will not only meet your security needs but also save you a headache.
 
 By refactoring the provided starter code, I was able to make the site function properly and prepare for any issues it may encounter along the way (such as inaccurate password length selection). I also made small changes to the HTML & CSS to overall add to the design. Throughout this process I learned the value of:
  - Appropriately naming variables/functions
